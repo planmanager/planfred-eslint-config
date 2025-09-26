@@ -1,6 +1,6 @@
 {
   "name": "@planfred/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Shared ESLint configurations for Planfred monorepo",
   "main": "index.js",
   "type": "module",
