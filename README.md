@@ -1,4 +1,4 @@
-# plafred-eslint-config
+# planfred-eslint-config
 
 Shared ESLint configurations for the Planfred monorepo.
 
