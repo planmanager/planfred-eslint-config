@@ -1,4 +1,4 @@
-# @planfred/eslint-config
+# plafred-eslint-config
 
 Shared ESLint configurations for the Planfred monorepo.
 
@@ -79,12 +79,22 @@ export default [
 
 ### Package.json Dependencies
 
-Add the shared config as a dependency in your package.json:
+Add the shared config as a dependency in your package.json using the GitHub repository URL:
 
 ```json
 {
   "dependencies": {
-    "@planfred/eslint-config": "file:../eslint-config-package"
+    "@planfred/eslint-config": "git+https://github.com/planfred/eslint-config.git"
+  }
+}
+```
+
+Alternatively, you can use a specific version or branch:
+
+```json
+{
+  "dependencies": {
+    "@planfred/eslint-config": "git+https://github.com/planfred/eslint-config.git#v1.0.0"
   }
 }
 ```
